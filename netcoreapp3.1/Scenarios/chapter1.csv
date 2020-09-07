@@ -181,7 +181,7 @@ wait,next_only
 image,children_stand_left_onomatopoeia_image,,pomp,no_sync
 text,children_stand_left_onomatopoeia_text,,,rotation,no_sync
 image,children_stand_left_image,,pomp
-wait
+wait,next_only
 scene,キミちゃんのきもちの種類
 reset
 image,bg_image,water_frame.png
@@ -251,6 +251,7 @@ msg,main_msg,赤丸くんと青助くんは、放課後、野球を するよう
 wait,next_only
 clear,text,main_msg
 hide,grid,main_msg_grid
+hide,image,shiroji_right_image
 image,children_stand_right_image,akamaru_stand_01.png
 image,children_stand_left_image,aosuke_stand_01.png
 image,main_msg_bubble_image,right_big_bubble_red.png
@@ -305,7 +306,6 @@ text,view_size_of_feeling_text,$akamarus_size_of_feeling$
 grid,view_size_of_feeling_grid
 image,main_msg_bubble_image,right_big_bubble.png
 grid,main_msg_grid,appear_expansion
-wait
 msg,main_msg,赤丸くんのきもちは【$akamarus_size_of_feeling$】くらいの 大きさなんじゃな。次は青助くんのきもちと　その大きさを考えてみよう。,白じい
 next
 scene,青助くんのきもちの種類
