@@ -167,7 +167,6 @@ image,shiroji_right_up_image,shiroji_02.png,appear_up
 image,main_msg_bubble_image,right_big_bubble.png
 grid,main_msg_grid,appear_expansion
 msg,main_msg,今度は「きもち」をみつける練習をグループでしてみるのじゃ。次の場面を見て、グループでキミちゃんのきもちを考えて、話し合ってみるのじゃ。,白じい
-wait,next_only
 next
 scene,キミちゃんドキッ！
 reset
@@ -181,7 +180,7 @@ wait,next_only
 image,children_stand_left_onomatopoeia_image,,pomp,no_sync
 text,children_stand_left_onomatopoeia_text,,,rotation,no_sync
 image,children_stand_left_image,,pomp
-wait,next_only
+wait
 scene,キミちゃんのきもちの種類
 reset
 image,bg_image,water_frame.png
@@ -216,7 +215,7 @@ image,shiroji_right_image,shiroji_02.png
 image,children_stand_left_image,kimi_stand_01.png
 image,main_msg_bubble_image,left_big_bubble_yellow.png
 grid,main_msg_grid,appear_expansion
-msg,main_msg,わたしは、しんぱいしたり、ふあんになったりすることがよくあるんだけど、場面がちがうと、きもちの「大きさ」がちがうような気がするわ。？,キミ
+msg,main_msg,わたしは、しんぱいしたり、ふあんになったりすることがよくあるんだけど、場面がちがうと、きもちの「大きさ」がちがうような気がするわ。,キミ
 wait,next_only
 clear,text,main_msg
 hide,grid,main_msg_grid
